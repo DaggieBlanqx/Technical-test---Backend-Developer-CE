@@ -1,0 +1,15 @@
+{
+  "name": "climate-edge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --single-quote --trailing-comma es5 --write \"./*.js\"",
+    "quickpush": "cls && git status && git add * && git commit * -m \"Updated Code\" && git push"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "prettier": "^2.3.2"
+  }
+}
